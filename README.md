@@ -18,10 +18,11 @@ Permissions:
 
 Commands:
 - /loadsigns - Loads Signs at offset (0, 1, 0), (0, -1, 0) from ItemFrames with item, be sure to follow CSV Requirements
-                                        BUY        SELL
                                         
 #CSV Requirements
 Name,ID:Data(If there is not data say :0),$Price,Amount   <- Buy Only
+
+
 Name,ID:Data(If there is not data say :0),$Price,Amount,$PriceSell, AmounttoSell <- Buy/Sell
 
 If You'll have any issues feel free to open issue, Enjoy
