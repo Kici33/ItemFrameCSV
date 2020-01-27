@@ -2,7 +2,6 @@ package me.kici33.ItemFrame.objects;
 
 public class ShopItem {
 
-    private String Item;
     private int ID;
     private byte data;
     private boolean buyDefined;
@@ -13,14 +12,17 @@ public class ShopItem {
     private String sellAmount;
 
     public ShopItem(String[] csv) {
-        this.Item = csv[0];
         String[] data = csv[1].split(":");
         this.ID = Integer.parseInt(data[0]);
         this.data = Byte.parseByte(data[1]);
         this.buyPrice = csv[2];
         this.buyAmount = csv[3];
-        this.sellPrice = csv[4];
-        this.sellAmount = csv[5];
+        this.sellPrice = null;
+        this.sellAmount = null;
+        if(csv.length > 4) {
+            this.sellPrice = csv[4];
+            this.sellAmount = csv[5];
+        }
         this.buyDefined = (buyPrice != null && buyAmount != null);
         this.sellDefined = (sellAmount != null &&  sellPrice != null);
     }
@@ -47,10 +49,6 @@ public class ShopItem {
 
     public int getID() {
         return ID;
-    }
-
-    public String getItem() {
-        return Item;
     }
 
     public String getSellAmount() {

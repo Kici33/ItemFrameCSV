@@ -1,9 +1,9 @@
-name: ItemFramCSV
+name: ItemFrameCSV
 author: "Kici33"
 version: "1.0"
-main: me.kic33.ItemFrame.IFrame
+main: me.kici33.ItemFrame.IFrame
 
 commands:
   loadsigns:
     permission: KItemFrame.loadsigns
-    description: "Command is loading signs to shop from ItemFrames using spreadsheet with economy pre-maded"
+    description: "Command is loading signs to shop from ItemFrames using spreadsheet"

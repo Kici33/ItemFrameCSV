@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ItemFrameCSV">
+    <output-path>$PROJECT_DIR$/out/artifacts/ItemFrameCSV</output-path>
+    <root id="archive" name="ItemFrameCSV.jar">
+      <element id="module-output" name="ItemFrameCSV" />
+    </root>
+  </artifact>
+</component>
