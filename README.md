@@ -24,4 +24,4 @@ Name,ID:Data(If there is not data say :0),$Price,Amount   <- Buy Only
 
 Name,ID:Data(If there is not data say :0),$Price,Amount,$PriceSell, AmounttoSell <- Buy/Sell
 
-If You'll have any issues feel free to open issue, Enjoy
+If You'll have any issues feel free to open issue, Enjoy 
